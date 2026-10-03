@@ -52,7 +52,7 @@ def list_alerts(
     }
 
 @router.patch("/{alert_id}/status")
-def update_alert_status(alert_id: int, status: str = Query(..., regex="^(active|read|dismissed|resolved)$"), db: Session = Depends(get_db)):
+def update_alert_status(alert_id: int, status: str = Query(..., pattern="^(active|read|dismissed|resolved)$"), db: Session = Depends(get_db)):
     alert = db.query(AlertModel).filter(AlertModel.id == alert_id).first()
     if not alert:
         raise HTTPException(status_code=404, detail="Alert not found")

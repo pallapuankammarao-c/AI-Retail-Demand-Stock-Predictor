@@ -31,7 +31,7 @@ def get_product_forecast(
     product_id: str,
     store_id: Optional[str] = "all",
     horizon: int = Query(7, ge=7, le=30),
-    model_type: str = Query("random_forest", regex="^(random_forest|gradient_boosting)$"),
+    model_type: str = Query("random_forest", pattern="^(random_forest|gradient_boosting)$"),
     db: Session = Depends(get_db)
 ):
     prod = db.query(ProductModel).filter(ProductModel.product_id == product_id).first()
