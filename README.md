@@ -60,8 +60,6 @@ Traditional retail ERP systems rely on manual periodic reviews or simplistic mov
 ---
 
 ## 2. Architecture & Data Pipeline
-
-```mermaid
 graph TD
     A[Raw Sales CSV / POS Ingestion] --> B[Data Validation & Preprocessing Pipeline]
     B -->|Deduplication, Outlier Capping, Null Imputation| C[(Relational DB: SQLite / PostgreSQL)]
