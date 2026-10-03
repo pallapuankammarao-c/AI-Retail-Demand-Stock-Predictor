@@ -11,19 +11,31 @@
 
 ---
 
-## 🚀 Quick Access Links & Application Launch
+## 🌟 ONE UNIFIED LINK FOR EVERYTHING (Tap to Open Dashboard)
 
 > [!IMPORTANT]
-> ### 🔗 Clickable Live Application Links (Open Anytime)
-> * **Primary (Always-On Unified App Port):** [http://localhost:8000](http://localhost:8000) or [http://127.0.0.1:8000](http://127.0.0.1:8000)
->   *(Directly serves both the full compiled React SaaS Dashboard + FastAPI REST backend from a single unified server. Guaranteed to open anytime with zero dependency on Node dev servers!)*
-> * **Vite Development Server (Hot-Reload Mode):** [http://localhost:5173](http://localhost:5173) or [http://127.0.0.1:5173](http://127.0.0.1:5173)
-> * **Interactive API Documentation (Swagger):** [http://localhost:8000/docs](http://localhost:8000/docs)
-> * **Printable Executive Intelligence Briefing (PDF):** [http://localhost:8000/api/reports/intelligence-report](http://localhost:8000/api/reports/intelligence-report)
+> ### 🎯 Single All-in-One Dashboard Link:
+> # 👉 **[http://localhost:8000](http://localhost:8000)** 👈
+> *(Alternative IP Link: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**)*
+> 
+> **Every single feature and page is combined into this ONE link:**
+> * 📊 **Executive Dashboard** — Real-time revenue, profit margins, stockout risks & inventory health
+> * 📈 **Sales Analytics** — 66,000+ sales transactions, category trends, discount elasticity & weekend surges
+> * 🔮 **AI Demand Forecasting** — Multi-horizon (7, 14, 30 days) Random Forest & Gradient Boosting predictions
+> * 📦 **Inventory Intelligence** — Reorder points, safety stock calculations & stockout countdown timers
+> * 🏷️ **Products Catalog** — Filterable master catalog with real-time stock status and detail modals
+> * 🏪 **Stores & Branches** — Cross-store performance comparisons and regional benchmarking
+> * 🤖 **Ask RetailPulse AI Copilot** — Conversational AI retail assistant for replenishment strategies
+> * 🚨 **Real-Time Alerts** — Automated notifications for critical stockouts and overstock warnings
+> * 📑 **Reports & Exports** — Instant CSV exports and printable Executive Retail Intelligence briefings
+> * ⚡ **Interactive API Docs** — Integrated FastAPI Swagger docs accessible directly at `http://localhost:8000/docs`
+> 
+> *(FastAPI serves both the complete compiled React SaaS application and the high-performance ML/REST backend from this single unified link. No multiple ports, no conflicting dev servers — tap the link to open the entire platform anytime!)*
 
 > [!TIP]
-> ### ⚡ Instant One-Click Windows Launch
-> Simply double-click **`start_app.bat`** in the project root! It will check the database, launch the unified application on `http://localhost:8000`, and immediately open it in your default web browser.
+> ### ⚡ Instant Launch Options:
+> 1. **One-Click Script:** Double-click **`start_app.bat`** in the project folder to start the server and automatically launch your browser.
+> 2. **Desktop Shortcut:** Double-click **`Open_Dashboard.html`** to instantly open **[http://localhost:8000](http://localhost:8000)**.
 
 ---
 
@@ -222,8 +234,8 @@ retailpulse-ai/
 
 ### Step 1: Clone Repository & Setup Environment
 ```bash
-git clone https://github.com/retailpulse-ai/retailpulse-ai.git
-cd retailpulse-ai
+git clone https://github.com/pallapuankammarao-c/AI-Retail-Demand-Stock-Predictor.git
+cd AI-Retail-Demand-Stock-Predictor
 ```
 
 ### Step 2: Backend Setup
