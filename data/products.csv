@@ -1,0 +1,21 @@
+product_id,product_name,category,brand,cost_price,selling_price,supplier,lead_time_days
+P-101,Wireless Headphones,Electronics,SonicWave,4200.0,6999.0,AuraTech Global,7
+P-102,Laptop Bag,Accessories,UrbanFlex,1100.0,2499.0,Venture Leathercraft,5
+P-103,Bluetooth Speaker,Electronics,BassBoom,1800.0,3499.0,AuraTech Global,6
+P-104,Smart Watch Ultra,Electronics,PulseWear,8500.0,14999.0,TitanMicro Tech,8
+P-105,Ergonomic Office Chair,Furniture,OrthoDesk,7200.0,12999.0,ComfortLine Corp,14
+P-106,RGB Gaming Mouse,Accessories,ViperTech,950.0,1999.0,TitanMicro Tech,5
+P-107,Air Purifier Pro,Home Appliances,AeroPure,5500.0,9999.0,Apex Appliances,10
+P-108,Mechanical Keyboard,Accessories,KeyCraft,2100.0,4299.0,TitanMicro Tech,6
+P-109,Espresso Coffee Maker,Home Appliances,CafféElite,4800.0,8499.0,Apex Appliances,9
+P-110,USB-C Multi-Hub,Accessories,ConnectX,650.0,1499.0,AuraTech Global,4
+P-111,Stainless Steel Bottle 1L,Lifestyle,HydroPeak,350.0,899.0,PureElements Ltd,4
+P-112,Non-Slip Yoga Mat,Lifestyle,ZenCore,500.0,1299.0,PureElements Ltd,5
+P-113,Noise Cancelling Earbuds,Electronics,SonicWave,2800.0,4999.0,AuraTech Global,7
+P-114,Adjustable Standing Desk,Furniture,OrthoDesk,14000.0,24999.0,ComfortLine Corp,18
+P-115,Ceramic Electric Kettle,Home Appliances,CafféElite,1200.0,2299.0,Apex Appliances,6
+P-116,4K Ultra-Wide Monitor,Electronics,ViewMaster,18500.0,29999.0,TitanMicro Tech,12
+P-117,Wireless Charging Pad,Accessories,ConnectX,700.0,1699.0,AuraTech Global,5
+P-118,Smart LED Desk Lamp,Home Appliances,LumiGlow,1400.0,2799.0,Apex Appliances,6
+P-119,Heavy-Duty Backpack,Accessories,UrbanFlex,1300.0,2999.0,Venture Leathercraft,7
+P-120,Fitness Tracking Band,Electronics,PulseWear,1600.0,3199.0,TitanMicro Tech,6

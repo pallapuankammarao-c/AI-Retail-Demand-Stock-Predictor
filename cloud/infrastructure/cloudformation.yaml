@@ -1,0 +1,80 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'RetailPulse AI - Cloud-Based Retail Analytics & Demand Forecasting Infrastructure'
+
+Parameters:
+  EnvironmentName:
+    Type: String
+    Default: 'production'
+  DBPassword:
+    Type: String
+    NoEcho: true
+    Description: 'Password for RDS PostgreSQL Database'
+
+Resources:
+  # S3 Bucket for Raw Sales Data, Model Artifacts & Reports
+  RetailPulseDataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'retailpulse-ai-data-${AWS::AccountId}-${AWS::Region}'
+      VersioningConfiguration:
+        Status: Enabled
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  # CloudWatch Log Group
+  RetailPulseLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/RetailPulseAI-${EnvironmentName}'
+      RetentionInDays: 30
+
+  # IAM Role for Lambda
+  RetailPulseLambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: [lambda.amazonaws.com]
+            Action: ['sts:AssumeRole']
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: RetailPulseS3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 's3:GetObject'
+                  - 's3:PutObject'
+                  - 's3:ListBucket'
+                Resource:
+                  - !GetAtt RetailPulseDataBucket.Arn
+                  - !Sub '${RetailPulseDataBucket.Arn}/*'
+
+  # RDS PostgreSQL Database Instance
+  RetailPulseDatabase:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      DBName: 'retailpulse'
+      AllocatedStorage: '20'
+      DBInstanceClass: 'db.t3.micro'
+      Engine: 'postgres'
+      EngineVersion: '15.3'
+      MasterUsername: 'retailadmin'
+      MasterUserPassword: !Ref DBPassword
+      PubliclyAccessible: false
+      DeleteAutomatedBackups: true
+      BackupRetentionPeriod: 7
+
+Outputs:
+  S3BucketName:
+    Value: !Ref RetailPulseDataBucket
+  DatabaseEndpoint:
+    Value: !GetAtt RetailPulseDatabase.Endpoint.Address

@@ -1,0 +1,21 @@
+product_id,product_name,category,current_stock,reorder_level,reorder_quantity,supplier,lead_time_days,warehouse
+P-101,Wireless Headphones,Electronics,84,231,308,AuraTech Global,7,WH-Central
+P-102,Laptop Bag,Accessories,180,240,448,Venture Leathercraft,5,WH-West
+P-103,Bluetooth Speaker,Electronics,820,90,140,AuraTech Global,6,WH-North
+P-104,Smart Watch Ultra,Electronics,62,216,252,TitanMicro Tech,8,WH-Central
+P-105,Ergonomic Office Chair,Furniture,95,168,112,ComfortLine Corp,14,WH-Central
+P-106,RGB Gaming Mouse,Accessories,320,187,350,TitanMicro Tech,5,WH-South
+P-107,Air Purifier Pro,Home Appliances,45,180,168,Apex Appliances,10,WH-Central
+P-108,Mechanical Keyboard,Accessories,210,171,266,TitanMicro Tech,6,WH-North
+P-109,Espresso Coffee Maker,Home Appliances,580,189,196,Apex Appliances,9,WH-Central
+P-110,USB-C Multi-Hub,Accessories,110,180,420,AuraTech Global,4,WH-North
+P-111,Stainless Steel Bottle 1L,Lifestyle,750,210,490,PureElements Ltd,4,WH-South
+P-112,Non-Slip Yoga Mat,Lifestyle,140,120,224,PureElements Ltd,5,WH-South
+P-113,Noise Cancelling Earbuds,Electronics,75,273,364,AuraTech Global,7,WH-West
+P-114,Adjustable Standing Desk,Furniture,40,135,70,ComfortLine Corp,18,WH-Central
+P-115,Ceramic Electric Kettle,Home Appliances,230,180,280,Apex Appliances,6,WH-North
+P-116,4K Ultra-Wide Monitor,Electronics,35,126,98,TitanMicro Tech,12,WH-South
+P-117,Wireless Charging Pad,Accessories,195,180,336,AuraTech Global,5,WH-West
+P-118,Smart LED Desk Lamp,Home Appliances,160,135,210,Apex Appliances,6,WH-North
+P-119,Heavy-Duty Backpack,Accessories,85,178,238,Venture Leathercraft,7,WH-West
+P-120,Fitness Tracking Band,Electronics,260,189,294,TitanMicro Tech,6,WH-Central
