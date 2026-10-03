@@ -3,11 +3,17 @@
 > **"Predict Demand. Prevent Stockouts. Optimize Inventory."**
 > Cloud-Based Retail Analytics, Demand Forecasting & Intelligent Inventory Management Platform
 
+[![Live Web Dashboard](https://img.shields.io/badge/Live_Dashboard-Open_Interactive_Dashboard-0284c7.svg?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pallapuankammarao-c.github.io/AI-Retail-Demand-Stock-Predictor/)
 ![Platform Status](https://img.shields.io/badge/Platform-Production%20Ready-0284c7?style=for-the-badge)
 ![ML Models](https://img.shields.io/badge/ML%20Engine-RandomForest%20%2B%20GradientBoosting-emerald?style=for-the-badge)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI%20%2B%20SQLAlchemy-059669?style=for-the-badge)
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite%20%2B%20Tailwind-38bdf8?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
+
+> ### 🌐 [👉 Click Here to Open Live Interactive Web Analytics Dashboard](https://pallapuankammarao-c.github.io/AI-Retail-Demand-Stock-Predictor/)
+> **Live Results & Executive Portal:** Explore real-time retail KPIs (₹24.8M+ Revenue / 66K+ Transactions), interactive multi-horizon demand forecasting (7, 14, 30 days), inventory health breakdown, stockout risk countdowns, and AI-powered replenishment recommendations directly in your browser.
+> 
+> *Direct repository file: [index.html](index.html) &bull; [Alternative HTMLPreview Direct Link](https://htmlpreview.github.io/?https://github.com/pallapuankammarao-c/AI-Retail-Demand-Stock-Predictor/blob/main/index.html)*
 
 ---
 
